@@ -1,0 +1,124 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+/* banner responsive start */
+    .banner-section .banner-inner{
+        flex-direction: column-reverse;
+       
+      }
+
+      .banner-section .banner-inner .content{
+        flex-basis: 100%;
+        text-align: center;
+       
+     }
+
+     .banner-section .banner-inner .img-part{
+        flex-basis: 100%;
+      }
+
+      .banner-section .banner-inner .content h1 {
+        font-size: 35px !important;
+        line-height: 45px !important;
+    }
+
+    .banner-section .banner-inner .content p {
+        line-height: 24px !important;
+        font-size: 14px !important;
+    }
+
+      /* banner responsive end */
+      /* feature responsive start */
+      .feature-section .feature-inner {
+      flex-direction: column;
+    }
+
+      /* feature responsive end */
+      /* online responsive start */
+      .courses .courses-inner {
+      flex-direction: column;
+    }
+  
+      /* online responsive end */
+
+      /* testimonial responsive start */
+      .testimonial-section .para {
+      flex-direction: column;
+    }
+
+    .testimonial-section .para .right p {
+      text-align: center;
+    }
+      /* testimonial responsive end */
+      /* footer responsive start */
+      .footer-section .paragraph {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section .paragraph .graph{
+       margin-bottom: 30px;
+    }
+      /* footer responsive end */
+  }
+  
